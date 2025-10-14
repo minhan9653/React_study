@@ -1,0 +1,31 @@
+모바일 TEST
+post image type
+Post contentinderstanding
+주소지 말하거나 입력 목록
+청구지 주소를 수집할 엔티티를 생성 머신이 학습
+A1 GPT 3.5   AH라는 Azure OpenA1 리소스  apikey
+Al1 세가지 배포 x Broken
+
+
+HOST RUN Cognitive
+
+
+
+해결 방법: service1과 공용 엔드포인트를 새 가상 네트워크에 배포하고 Azure Private Link를 구성합니다.
+해결 방법: service1과 개인 엔드포인트를 vnet1에 배포합니다.
+해결 방법: Content Safety Studio에서 조정 텍스트 콘텐츠 기능을 사용하여 테스트를 실행합니다.
+해결 방법: 더 높은 계층을 사용하는 Cognitive Search 서비스로 마이그레이션합니다.
+해결책: 기존 모델에 새 이미지와 라벨을 추가합니다. 모델을 다시 학습한 다음 모델을 게시합니다.
+해결책: 새로운 이미지를 추가한 다음 스마트 라벨러 도구를 사용합니다.
+솔루션: Language Studio에서 chitchat 소스를 qna_chitchat_professional.tsv로 변경한 다음  모델을 다시 학습시키고 다시 게시합니다.
+해결 방법: FindContact 인텐트의 각 구문에 대해 새로운 발화를 만듭니다.
+해결책: Language Studio에서 질문과 답변 쌍에 대체 문구를 추가한 다음 모델을 다시 학습시키고 다시 게시합니다.
+
+
+
+
+East US Azure 지역에 배포해야
+
+computerVision F0
+
+TextAnalytics",S0
