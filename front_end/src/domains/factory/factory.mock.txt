@@ -1,0 +1,19 @@
+// domains/factory/factory.mock.js
+export const factoryMockData = [
+  {
+    id: 7710,                 // DataTable용 row id
+    plantId: 7710,
+    plantNameKoKr: "서연이화 사바나",
+    plantNameEnUs: "Seoyon E-Hwa Manufacturing Savannah",
+    address: "450 Four Lakes",
+    phone: "",
+    fax: "",
+    language: "",
+    description: "",          // ⭐ 아직 값 없음
+    startBusinessHour: "",
+    creator: "System",
+    createdTime: "20250108 112811",
+    modifier: "webmaster",
+    modifiedTime: "20250306 141926",
+  },
+];

@@ -1,0 +1,93 @@
+/* =========================
+   전체 검색 바
+   ========================= */
+.search-bar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  background: #f7f7f7;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+/* =========================
+   검색 조건 영역
+   ========================= */
+.search-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+/* =========================
+   검색 항목 (기본: 가로)
+   ========================= */
+.search-item {
+  display: grid;
+  grid-template-columns: 60px 160px;
+  gap: 8px;
+  align-items: center;
+}
+
+/* 라벨 */
+.search-item label {
+  font-size: 14px;
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* 입력 */
+.search-item input,
+.search-item select {
+  height: 34px;
+  padding: 0 12px;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+  box-sizing: border-box;
+}
+
+/* =========================
+   🔥 화면 줄어들 때 (핵심)
+   ========================= */
+@media (max-width: 900px) {
+  .search-item {
+    grid-template-columns: 1fr;   /* 세로 배치 */
+    align-items: stretch;
+  }
+
+  .search-item label {
+    text-align: left;
+    margin-bottom: 4px;
+  }
+
+  .search-item input,
+  .search-item select {
+    width: 100%;                  /* 세로 모드에서는 꽉 채움 */
+  }
+}
+
+/* =========================
+   버튼 영역
+   ========================= */
+.search-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  padding-top: 4px;
+}
+
+/* 버튼 */
+.btn {
+  height: 34px;
+  padding: 0 16px;
+  border-radius: 8px;
+  border: none;
+  background: #9ca3af;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background: #6c63ff;
+}

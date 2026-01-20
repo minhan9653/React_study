@@ -1,0 +1,60 @@
+/* =========================
+   전체 레이아웃
+   ========================= */
+.app-layout {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    /* body 스크롤 차단 */
+}
+
+/* =========================
+   사이드바 제외 메인 영역
+   ========================= */
+.app-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* 내부에서만 스크롤 허용 */
+}
+
+/* =========================
+   탭 + 페이지 영역
+   ========================= */
+.app-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 0;
+    position: relative;
+}
+
+
+/* =========================
+   탭별 페이지 wrapper
+   ========================= */
+.tab-page {
+    flex: 1;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 0;
+
+}
+
+.tab-page.active {
+    display: flex;
+    height: 100%;
+    /* ⭐ 이게 핵심 */
+    min-height: 0
+}
+
+/* ⭐ 페이지 실제 내용 wrapper */
+.tab-page-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}

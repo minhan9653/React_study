@@ -1,0 +1,60 @@
+.tab-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 16px;
+  height: 42px;
+
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+
+/* 탭 하나 */
+.tab-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  height: 100%;
+  padding: 0 2px;
+
+  font-size: 14px;
+  color: #9ca3af;          /* 비활성 회색 */
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* 활성 탭 */
+.tab-item.active {
+  color: #111827;
+  font-weight: 600;
+}
+
+/* 활성 탭 하단 라인 */
+.tab-item.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #2563eb;     /* 파란 라인 */
+}
+
+/* 탭 제목 */
+.tab-title {
+  line-height: 1;
+}
+
+/* 닫기 버튼 */
+.tab-close {
+  font-size: 14px;
+  color: #9ca3af;
+  cursor: pointer;
+  margin-left: 2px;
+}
+
+.tab-close:hover {
+  color: #111827;
+}

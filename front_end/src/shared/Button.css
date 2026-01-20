@@ -1,0 +1,29 @@
+.btn {
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+/* 회색 */
+.btn-gray {
+  background-color: #9ca3af;
+  color: white;
+}
+
+.btn-gray:hover {
+  background-color: #6b7280;
+}
+
+/* 보라 */
+.btn-primary {
+  background-color: #6366f1;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #4f46e5;
+}
